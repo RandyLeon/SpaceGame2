@@ -10,6 +10,9 @@ namespace Adventuregameex
     {
         static void Main(string[] args)
         {
+            Console.WindowHeight = Console.LargestWindowHeight;
+            Console.WindowWidth = Console.LargestWindowWidth;
+            Travel.gameTitle();
         }
     }
 }
