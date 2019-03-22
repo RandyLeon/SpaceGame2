@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adventuregameex
+namespace TheSolTrader
 {
-    class Program
+    class Start
     {
         static void Main(string[] args)
         {
             Console.WindowHeight = Console.LargestWindowHeight;
             Console.WindowWidth = Console.LargestWindowWidth;
-            Travel.gameTitle();
+            new Trading().Run();
         }
     }
 }
