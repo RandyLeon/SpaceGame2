@@ -75,7 +75,7 @@ namespace TheSolTrader
                 case Quit.Age:
                     Console.BackgroundColor = ConsoleColor.DarkMagenta;
                     Console.ForegroundColor = ConsoleColor.Black;
-                    Console.WriteLine(@"YOU ATE ALL MY TWINKIES!!!.                                
+                    Console.WriteLine(@"You're 70 years old time to retire.                        
                     dS$$S$S$S$S$S$S$$Sb                    
                    :$$S^S$S$S$S$S$S^S$$;                   
                    SSP   `^$S$S$^'   TSS                   

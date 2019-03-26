@@ -71,6 +71,12 @@ namespace TheSolTrader
                             111.601, 41.222,
                             new List<Item>() { droid, megaSeed, bottleWater, vibranium, kryptonite, michaelsstuff, scoobysnack },
                             3.0M, 500));
+            locations.Add(
+              new Location("Age ending",
+                           "Retired.",
+                           1.601, 10000000.222,
+                           new List<Item>() { droid, megaSeed, bottleWater, vibranium, kryptonite, michaelsstuff, scoobysnack },
+                           3.0M, 500));
 
             Trader = new Player(locations[0]);
         }
@@ -118,7 +124,7 @@ namespace TheSolTrader
                 Console.Clear();
                 string secText = secOptions[randomNumber];
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine($"Location: {Trader.location.name}                 inventory: {Trader.inventory.Count}                   Name: {secText}                   Twinkies: {Trader.age:f2} boxes                   Schmeckles: {Trader.money:f1}\n");
+                Console.WriteLine($"Location: {Trader.location.name}                 Inventory: {Trader.inventory.Count}                   Name: {secText}                   Age: {Trader.age:f2} Years                   Schmeckles: {Trader.money:f1}\n");
                 Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.DarkMagenta;
                 Console.WriteLine(Trader.location.description);

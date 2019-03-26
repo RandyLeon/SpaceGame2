@@ -67,7 +67,7 @@ namespace TheSolTrader
         public static void IntroText2()
         {
             Console.Clear();
-            Console.WriteLine(@"you have about 50 boxes of twinkies to live off of, so get to it!
+            Console.WriteLine(@"You have about 50 years to travel, so get to it!
   .      .      .      .      .      .      .      .      .      .      .     .    .     .    .    .     .    . .   .       .       .   . 
 .                               .       .       .       .       .       .           .       .           .           .               .      
    .        .        .        .        .        .        .        .        .                   .           .               .           .       
